@@ -1,0 +1,22 @@
+# Automatická detekce textových souborů a normalizace na LF v repozitáři
+* text=auto eol=lf
+
+# Windows skripty musí mít CRLF, jinak je cmd.exe nemusí zpracovat správně
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+*.reg text eol=crlf
+
+# Linux skripty vždy LF
+*.sh text eol=lf
+
+# Binární soubory bez konverze
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.exe binary
+*.dll binary

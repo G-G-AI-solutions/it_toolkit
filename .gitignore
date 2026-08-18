@@ -1,0 +1,54 @@
+# Logy a výstupy skriptů
+*.log
+logs/
+output/
+temp/
+tmp/
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Editory a IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Lokální konfigurace a tajné údaje
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+credentials*.json
+config.local.*
+
+# Python (pomocné utility)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Archivy a instalátory
+*.zip
+*.7z
+*.iso
